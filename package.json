@@ -1,0 +1,27 @@
+{
+  "name": "voice2text",
+  "version": "1.0.0",
+  "description": "Transforms voice to text",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node -r babel-register index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/graned/voice2Text.git"
+  },
+  "author": "Eduardo Anaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/graned/voice2Text/issues"
+  },
+  "homepage": "https://github.com/graned/voice2Text#readme",
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "express": "^4.13.4",
+    "prettier": "^1.7.4"
+  }
+}
